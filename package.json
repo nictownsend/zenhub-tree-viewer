@@ -1,0 +1,29 @@
+{
+  "name": "zenhub-tree-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "source": "client/index.html",
+  "targets": {
+    "default": {
+      "distDir": "public"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cytoscape": "^3.21.1",
+    "cytoscape-elk": "^2.0.2",
+    "elkjs": "^0.8.1",
+    "express": "^4.18.1",
+    "parcel": "^2.6.0"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "process": "^0.11.10",
+    "web-worker": "^1.2.0"
+  }
+}
